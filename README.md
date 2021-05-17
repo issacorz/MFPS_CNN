@@ -1,7 +1,6 @@
 # MFPS_CNN
 This is the public site for the paper under submission named: "Paper Name"
 
-In this repo, we provide users with a standalone application for predicting ion channel and ion transporter from membrane protein
 
 # LIBRARY REQUIREMENTS
 
@@ -19,10 +18,33 @@ In this repo, we provide users with a standalone application for predicting ion 
 
             + tensorflow-gpu 1.14.0
 # USAGE
-First, clone the repository or download compressed source code files.
+Clone the repository or download compressed source code files 
+Extract the data.rar in data and run ion_data_preprocessing.py which will generate train and test file
 
 
-	$ git clone https://github.com/bhi-kimlab/DeepFam.git
-	$ cd DeepFam
+	$ git clone https://github.com/issacorz/MFPS_CNN.git
+	$ cd MFPS_CNN
+
+You can see help option by using:
+
+	$ python run.py --help
+	
+Example for setting parameter
 
 
+	$ python run.py \
+	--num_windows [256, 256, 256] \ 
+	--window_lengths [2, 4, 16] \
+	--num_hidden 1000 \
+	--batch_size 100 \
+	--keep_prob 0.7 \ 
+	--learning_rate 0.001 \
+	--regularizer 0.001 \ 
+	--max_epoch 100 \
+	--seq_len 4000 \ 
+	--num_classes 2 \ 
+	--log_interval 100 \ 
+	--save_interval 100 \ 
+	--log_dir './logs' \  
+	--test_file 'your test file direction' \ 
+	--train_file 'your train file direction' 
