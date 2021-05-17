@@ -18,8 +18,9 @@ This is the public site for the paper under submission named: "Paper Name"
 
             + tensorflow-gpu 1.14.0
 # USAGE
-Clone the repository or download compressed source code files 
-Extract the data.rar in data and run ion_data_preprocessing.py which will generate train and test file
+Clone the repository or download compressed source code files.
+
+Extract the data.rar in data and run ion_data_preprocessing.py which will generate train and test file.
 
 
 	$ git clone https://github.com/issacorz/MFPS_CNN.git
