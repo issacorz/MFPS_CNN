@@ -20,4 +20,9 @@ In this repo, we provide users with a standalone application for predicting ion 
             + tensorflow-gpu 1.14.0
 # USAGE
 First, clone the repository or download compressed source code files.
-+ git clone 
+
+
+	$ git clone https://github.com/bhi-kimlab/DeepFam.git
+	$ cd DeepFam
+
+
