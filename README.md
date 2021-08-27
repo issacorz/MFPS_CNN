@@ -1,5 +1,5 @@
 # MFPS_CNN
-This is the public site for the paper under submission named: "Paper Name"
+This is the public site for the paper under submission named: "MFPS_CNN: Multi-filter pattern scanning from position-specific scoring matrix with convolutional neural network for efficient prediction of ion transporters"
 
 
 # LIBRARY REQUIREMENTS
